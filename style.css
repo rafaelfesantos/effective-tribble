@@ -4,7 +4,7 @@
     --branco: #FFFFFF;
     --branco-ativo: #3A375E;
     --botao-inativo: rgba(58,55,,94,0.5);
-    --texto-fundo: rgba(58,55,94,0.5);
+    --texto-fundo: rgba(58,55,94,0.3);
   }
   *{
      background-color: var(--cor-de-fundo);
@@ -12,4 +12,15 @@
      font-style: initial;
      font-size: 27px;
   }
-  *button{  color: var(--verde);}
+  
+  span{
+     color: var(--verde);
+  }
+
+.Conteudo-Principal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
